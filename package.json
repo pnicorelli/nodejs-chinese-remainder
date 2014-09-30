@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-chinese-remainder",
+  "version": "0.0.1",
+  "description": "Chinese Remainder Theorem solver for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pnicorelli/nodejs-chinese-remainder.git"
+  },
+  "author": "Paolo Nicorelli",
+  "license": "GPL v2",
+  "bugs": {
+    "url": "https://github.com/pnicorelli/nodejs-chinese-remainder/issues"
+  },
+  "homepage": "https://github.com/pnicorelli/nodejs-chinese-remainder",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^1.21.4"
+  }
+}
