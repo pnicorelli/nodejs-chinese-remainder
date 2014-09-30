@@ -1,11 +1,11 @@
 {
   "name": "nodejs-chinese-remainder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Chinese Remainder Theorem solver for NodeJS",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "start": "node index.js"
+    "example": "node example.js"
   },
   "repository": {
     "type": "git",
