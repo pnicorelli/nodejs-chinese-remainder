@@ -30,6 +30,8 @@ I choose to use *bigint* libs from https://github.com/substack/node-bigint
 Here an example:
 
 ```
+var crt_bigint = require('nodejs-chinese-remainder');
+
 var a1=bigint('507483274265132509471575639764027');
 var m1=bigint('269916455047188404153874847098609926219');
 var a2=bigint('27723967616827289286920296659419136');
