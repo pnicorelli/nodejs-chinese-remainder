@@ -1,6 +1,8 @@
 NodeJS Chinese Remainder Theorem solver
 =======================================
 
+[![Build Status](https://travis-ci.org/pnicorelli/nodejs-chinese-remainder.svg?branch=master)](https://travis-ci.org/pnicorelli/nodejs-chinese-remainder)
+
 If you come here you probably already know what the chinese remainder theorem is.
 Here you can find a NodeJS implementation.
 
