@@ -8,15 +8,15 @@
 * This function will be called as:
 *
 * chineseRemainder( [a1, a2], [n1, n2])
-* @return {bigint}
+* @return {bignum}
 */
-var bigint = require('bigint');
+var bignum = require('bignum');
 
 function mul_inv(a, b){
 
   var b0 = b;
-  var x0 = bigint(0);
-  var x1 = bigint(1);
+  var x0 = bignum(0);
+  var x1 = bignum(1);
   var q, tmp;
   if( b.eq(1) ){
     return b;
@@ -37,13 +37,13 @@ function mul_inv(a, b){
   return x1;
 }
 
-// a, n are array of bigint instances
-function chineseRemainder_bigint(a, n){
-  var p = bigint(1);
-  var p1 = bigint(1);
-  var prod = bigint(1);
+// a, n are array of bignum instances
+function chineseRemainder_bignum(a, n){
+  var p = bignum(1);
+  var p1 = bignum(1);
+  var prod = bignum(1);
   var i = 1;
-  var sm = bigint(0);
+  var sm = bignum(0);
   for(i=0; i< n.length; i++){
     prod = prod.mul( n[i] );
     //prod = prod * n[i];
@@ -61,4 +61,4 @@ function chineseRemainder_bigint(a, n){
 }
 
 
-module.exports = chineseRemainder_bigint;
+module.exports = chineseRemainder_bignum;

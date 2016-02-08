@@ -27,18 +27,18 @@ console.log( '  The solution is: ' + crt([5,3,7], [4,5,11]));
 ```
 
 if you are getting trouble because your integer numbers are too large you can use the power of libgmp.
-I choose to use *bigint* libs from https://github.com/substack/node-bigint
+I choose to use *bignum* libs from https://github.com/justmoon/node-bignum
 
 Here an example:
 
 ```
-var crt_bigint = require('nodejs-chinese-remainder');
+var crt_bignum = require('nodejs-chinese-remainder');
 
-var a1=bigint('507483274265132509471575639764027');
-var m1=bigint('269916455047188404153874847098609926219');
-var a2=bigint('27723967616827289286920296659419136');
-var m2=bigint('170141183460469231731687303715884105728');
-var result = crt_bigint([a1, a2],[m1, m2]);
+var a1=bignum('507483274265132509471575639764027');
+var m1=bignum('269916455047188404153874847098609926219');
+var a2=bignum('27723967616827289286920296659419136');
+var m2=bignum('170141183460469231731687303715884105728');
+var result = crt_bignum([a1, a2],[m1, m2]);
 console.log( result.toString() );
 ```
 
