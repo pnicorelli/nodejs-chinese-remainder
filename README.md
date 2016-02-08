@@ -27,7 +27,7 @@ console.log( '  The solution is: ' + crt([5,3,7], [4,5,11]));
 ```
 
 if you are getting trouble because your integer numbers are too large you can use the power of libgmp.
-I choose to use *bignum* libs from https://github.com/substack/node-bignum
+I choose to use *bignum* libs from https://github.com/justmoon/node-bignum
 
 Here an example:
 
