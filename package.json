@@ -1,6 +1,6 @@
 {
   "name": "nodejs-chinese-remainder",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Chinese Remainder Theorem solver for NodeJS",
   "main": "index.js",
   "scripts": {
