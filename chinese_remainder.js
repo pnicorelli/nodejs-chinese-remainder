@@ -36,7 +36,9 @@ function mul_inv(a, b){
 }
 
 function chineseRemainder(a, n){
-  var p = i = prod = 1;
+  var p = 1;
+  var i = 1;
+  var prod = 1;
   var sm = 0;
   for(i=0; i< n.length; i++){
     prod = prod * n[i];
