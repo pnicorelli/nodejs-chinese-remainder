@@ -1,6 +1,6 @@
 {
   "name": "nodejs-chinese-remainder",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "Chinese Remainder Theorem solver for NodeJS",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,8 @@
   "homepage": "https://github.com/pnicorelli/nodejs-chinese-remainder",
   "devDependencies": {
     "chai": "^1.9.2",
-    "mocha": "^7.1.1"
+    "mocha": "^7.1.1",
+    "ansi-regex": ">=5.0.1"
   },
   "dependencies": {
     "bignum": "^0.13.1"
